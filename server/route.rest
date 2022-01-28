@@ -1,0 +1,17 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/61be4389b923b5276c049034
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstName": "samer",
+    "lastName": "smati",
+    "email": "samer@gmail.com",
+    "password": "1234456"
+}
